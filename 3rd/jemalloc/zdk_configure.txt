@@ -1,0 +1,2 @@
+1,arm
+configure --disable-experimental --build=x86_64-unknown-linux-gnu --host=arm-hisiv100nptl-linux EXTRA_CFLAGS="-fno-omit-frame-pointer -DUSE_UTF8 -O2 -fPIC -std=gnu99 " LDFLAGS=" -fPIC -std=gnu99" CC="/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc" CXX="/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-g++" AR="/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-ar"
